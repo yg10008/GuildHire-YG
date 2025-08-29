@@ -1,0 +1,46 @@
+node_modules/
+
+# Builds and coverage
+dist/
+build/
+coverage/
+.tmp/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploads (keep directory structure with .gitkeep)
+uploads/**
+!uploads/
+!uploads/.gitkeep
+!uploads/resumes/
+!uploads/resumes/.gitkeep
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Archives
+*.tgz
+*.zip
+*.tar
+*.tar.gz
+*.tar.xz
+*.tar.bz2
+
+# IDE/editor
+.vscode/
+.idea/
